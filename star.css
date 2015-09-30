@@ -1,0 +1,25 @@
+#rating {
+	cursor: pointer;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: left;
+}
+
+/*
+span:hover, span:hover~span {
+	color: transparent;
+}
+*/
+
+
+span:hover:before, span:hover~span:before {
+	content: '\2605';
+	position: absolute;
+	color: gold;
+}
+
+span[className="selected"] {
+	color: gold;
+}
+
+
