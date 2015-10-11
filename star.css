@@ -18,8 +18,17 @@ span:hover:before, span:hover~span:before {
 	color: gold;
 }
 
+/*
 span[className="selected"] {
 	color: gold;
 }
+*/
 
+.selected {
+	color: gold;
+}
 
+li {
+	list-style: none;
+	display: inline;
+}
